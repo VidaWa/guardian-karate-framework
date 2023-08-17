@@ -34,6 +34,9 @@
 				<configuration>
 					<includes>
 						<!-- Parametarized Runner for Surefire Plugin -->
+						<!-- In order to run with maven the command should be: -->
+						<!-- mvn clean test -Drunner=SmokeRunner --> 
+						<!-- SmokeRunner is the name of the runner file. -->
 						<include>${runner}.java</include> <!-- runner is variable -->
 					</includes>
 				</configuration>
