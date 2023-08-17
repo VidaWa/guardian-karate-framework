@@ -33,7 +33,8 @@
 				<version>2.22.2</version>
 				<configuration>
 					<includes>
-						<include>TestRunner.java</include>
+						<!-- Parametarized Runner for Surefire Plugin -->
+						<include>${runner}.java</include> <!-- runner is variable -->
 					</includes>
 				</configuration>
 			</plugin>
