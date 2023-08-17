@@ -8,7 +8,7 @@ public class TestRunner {
 	public Karate runTest() {
 		// address for the feature files.
 		// And tags.
-		return Karate.run("classpath:features").tags("Regression");
+		return Karate.run("classpath:features").tags("@EndtoEnd");
 	}
 
 }

@@ -1,3 +1,4 @@
+@EndtoEnd
 Feature: End to End Test for Account Creation
 
 	Background: Setup Test and Generate
